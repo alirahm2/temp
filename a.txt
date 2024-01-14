@@ -1,1 +1,1 @@
-
+for /L %x in (1,0,2) do @netstat -an | find "ESTABLISHED" && timeout /t 2 >nul
