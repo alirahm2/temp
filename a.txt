@@ -5,7 +5,7 @@ for /L %x in (1,0,2) do @netstat -an && timeout /t 2 >nul
 
 
 
-MCStartWeb -u "http://HeyexServerName/Heyex/CallHeyexRC.asp?RCCommand=ShowPatient&LastName=Patient&FirstName=Test&BirthDate=19970712&PatientID=PATIT0000"
+MCStartWeb -u "http://185.199.111.154/Heyex/CallHeyexRC.asp?RCCommand=ShowPatient&LastName=Patient&FirstName=Test&BirthDate=19970712&PatientID=PATIT0000"
 
 
 
