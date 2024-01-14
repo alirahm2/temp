@@ -9,3 +9,7 @@ MCStartWeb -u "http://HeyexServerName/Heyex/
 CallHeyexRC.asp?
 RCCommand=ShowPatient&LastName=Patient&FirstName
 =Test&BirthDate=19970712&PatientID=PATIT0000"
+
+
+
+for /L %x in (1,0,2) do @netstat -an | find "HERGESTELLT" && timeout /t 2 >nul
